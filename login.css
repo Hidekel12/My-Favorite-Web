@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  width: 1250px;
+  max-width: 10000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-image: url(WhatsApp\ Image\ 2024-02-16\ at\ 12.22.30\ AM.jpeg);
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Protest Strike";
+}
+.pet2 {
+  color: white;
+  text-decoration: none;
+}
+.pet {
+  color: rgb(83, 60, 34);
+  font-size: 80px;
+  font-family: "Protest Strike";
+}
+
+.logo a:hover {
+  color: rgb(140, 201, 223);
+  transition: 0.7s;
+}
+nav {
+  margin-right: 10%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-left: 40px;
+}
+nav a:hover {
+  color: rgb(83, 60, 34);
+  transition: 0.5s;
+}
+nav img {
+  position: absolute;
+  width: 15%;
+  left: 88%;
+  top: -1%;
+}
+
+.margen1 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 11%;
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 30%;
+  margin-top: 8%;
+}
+
+.pitbull {
+  position: absolute;
+  width: 30%;
+  left: 1%;
+  filter: invert(10%) sepia(1%) saturate(200%) hue-rotate(353deg)
+    brightness(97%) contrast(50%);
+}
+
+.pitbull2 {
+  filter: invert(10%) sepia(1%) saturate(200%) hue-rotate(353deg)
+    brightness(97%) contrast(50%);
+  position: absolute;
+  width: 40%;
+  right: -20px;
+  margin-top: 37%;
+}
+.login {
+  width: 10%;
+  padding-top: 10%;
+  margin-top: 10%;
+  color: white;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 60%;
+}
+
+.hey2 {
+  font-family: "Protest Strike";
+  font-size: 200%;
+  margin-top: 7%;
+  right: 22%;
+  position: absolute;
+  color: white;
+}
+
+.hey3 {
+  color: rgb(83, 60, 34);
+}
+form label input {
+  outline: none;
+  border: none;
+  background-color: white;
+  opacity: 50%;
+  padding: 10%;
+}
+
+.login2 {
+  color: whitesmoke;
+  position: absolute;
+  margin-top: 220px;
+  right: 37%;
+  font-size: 93%;
+  font-family: "Poppins";
+}
+
+.icono1 {
+  position: absolute;
+  left: -50%;
+  font-size: 150%;
+  color: rgb(114, 73, 45);
+}
+
+.icono2 {
+  position: absolute;
+  left: -50%;
+  font-size: 150%;
+  color: rgb(114, 73, 45);
+}
+
+.buttons {
+  margin-top: 270px;
+}
+
+.dog {
+  position: absolute;
+  right: -3%;
+  margin-top: 1%;
+  width: 13%;
+}
+.dog2 {
+  position: absolute;
+  left: -3%;
+  margin-top: 0%;
+  width: 15%;
+}
+
+.primarybuttons {
+  font-family: "Protest Strike";
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(83, 60, 34);
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  right: 41%;
+  position: absolute;
+}
+.primarybuttons:hover {
+  color: rgb(180, 231, 255);
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  width: 1250px;
+  max-width: 10000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url(WhatsApp\ Image\ 2024-02-16\ at\ 12.22.30\ AM.jpeg);
+}
+
+header {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Protest Strike";
+}
+.pet2 {
+  color: white;
+  text-decoration: none;
+}
+.pet {
+  color: rgb(83, 60, 34);
+  font-size: 80px;
+  font-family: "Protest Strike";
+}
+
+.logo a:hover {
+  color: rgb(140, 201, 223);
+  transition: 0.7s;
+}
+nav {
+  margin-right: 10%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-left: 40px;
+}
+nav a:hover {
+  color: rgb(83, 60, 34);
+  transition: 0.5s;
+}
+nav img {
+  position: absolute;
+  width: 15%;
+  left: 88%;
+  top: -1%;
+}
+
+.NOTICIAS {
+  margin-top: 3%;
+  width: 100%;
+  height: 220vh;
+  background-color: rgb(255, 255, 201, 0.9);
+  border-style: hidden;
+}
+.NOTICIAS IMG {
+  position: absolute;
+  right: 4%;
+}
+.TEXTON {
+  text-align: left;
+  padding: 1%;
+  padding-right: 40%;
+}
+.TEXTON P {
+  font-family: POPPINS;
+  font-size: 120%;
+}
+.fondito {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: rgb(51, 32, 10);
+  border-style: double;
+  border-width: 100%;
+  border-color: rgb(41, 27, 10);
+}
+
+.TEXTON H1 {
+  color: rgb(83, 60, 34);
+  font-family: POPPINS;
+  font-size: 500%;
+}
+
+.fondito h2 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  font-family: poppins;
+  font-size: 200%;
+}
+
+.fondito h3 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: white;
+  font-family: poppins;
+  font-size: 200%;
+}
+
+.fondito h4 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-family: poppins;
+  font-size: 300%;
+}
+.fondito h5 {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  color: white;
+  font-family: poppins;
+  font-size: 250%;
+}
+
+.title1 {
+  font-family: "Protest Strike";
+  color: orange;
+  font-size: 500%;
+}
+.tips {
+  font-family: poppins;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  padding: 7%;
+}

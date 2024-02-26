@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  width: 1250px;
+  max-width: 10000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+body {
+  background-image: url(WhatsApp\ Image\ 2024-02-16\ at\ 12.22.30\ AM.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Protest Strike";
+}
+.pet2 {
+  color: white;
+  text-decoration: none;
+}
+.pet {
+  color: rgb(83, 60, 34);
+  font-size: 80px;
+  font-family: "Protest Strike";
+}
+
+.logo a:hover {
+  color: rgb(140, 201, 223);
+  transition: 0.7s;
+}
+nav {
+  margin-right: 10%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-left: 40px;
+}
+nav a:hover {
+  color: rgb(83, 60, 34);
+  transition: 0.5s;
+}
+nav img {
+  position: absolute;
+  width: 15%;
+  left: 88%;
+  top: -1%;
+}
+
+.dog {
+  position: absolute;
+  right: -3%;
+  margin-top: 1%;
+  width: 13%;
+}
+
+.dog2 {
+  position: absolute;
+  left: -3%;
+  margin-top: 0%;
+  width: 15%;
+}
+
+.margen12 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 11%;
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 10%;
+  margin-top: 5%;
+}
+
+.margen23 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 11%;
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 52%;
+  margin-top: 5%;
+}
+
+.CAT {
+  font-size: 250%;
+  font-family: "Protest Strike";
+  color: white;
+  position: absolute;
+  right: 39%;
+  margin-top: 65%;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: rgb(83, 60, 34);
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.DOG {
+  font-size: 250%;
+  font-family: "Protest Strike";
+  color: white;
+  position: absolute;
+  right: 37%;
+  margin-top: 65%;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: rgb(83, 60, 34);
+  display: inline-block;
+  overflow: hidden;
+  padding: 14px 24px;
+  border-radius: 10px;
+}
+
+.DOG span {
+  position: relative;
+  z-index: 2;
+}
+.DOG::after {
+  background-color: rgb(94, 82, 57);
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  left: 0;
+  top: -300px;
+  transition: 0.3s ease-in-out all;
+  content: "";
+  border-radius: 0px 0px 300px 300px;
+}
+
+.DOG:hover::after {
+  top: 0;
+}
+
+.DOG1 {
+  width: 60%;
+  top: 8%;
+  position: absolute;
+  right: 20%;
+}
+
+.CAT2 {
+  right: 18%;
+  width: 60%;
+  top: 8%;
+  position: absolute;
+}
+
+.CAT span {
+  position: relative;
+  z-index: 2;
+}
+.CAT::after {
+  background-color: rgb(94, 82, 57);
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  left: 0;
+  top: -300px;
+  transition: 0.3s ease-in-out all;
+  content: "";
+  border-radius: 0px 0px 300px 300px;
+}
+
+.CAT:hover::after {
+  top: 0;
+}

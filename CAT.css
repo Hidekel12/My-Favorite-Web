@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.contenedor {
+  width: 1250px;
+  max-width: 10000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+body {
+  height: 100vh;
+  background-image: url(WhatsApp\ Image\ 2024-02-16\ at\ 12.22.30\ AM.jpeg);
+}
+
+header {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Protest Strike";
+}
+.pet2 {
+  color: white;
+  text-decoration: none;
+}
+.pet {
+  color: rgb(83, 60, 34);
+  font-size: 80px;
+  font-family: "Protest Strike";
+}
+
+.logo a:hover {
+  color: rgb(140, 201, 223);
+  transition: 0.7s;
+}
+nav {
+  margin-right: 10%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-left: 40px;
+}
+nav a:hover {
+  color: rgb(83, 60, 34);
+  transition: 0.5s;
+}
+nav img {
+  position: absolute;
+  width: 15%;
+  left: 88%;
+  top: -1%;
+}
+.PERRO {
+  animation: BOUNCE 2s infinite;
+}
+@keyframes BOUNCE {
+  0% {
+    transform: TRANSLATEY(0);
+  }
+  40% {
+    transform: TRANSLATEY(-20px);
+  }
+  60% {
+    transform: TRANSLATEY(-10px);
+  }
+}
+.PERRO IMG {
+  position: absolute;
+  width: 100px;
+  top: -11%;
+  left: 5%;
+}
+
+.gato1 {
+  display: flex;
+  position: relative;
+  top: 100px;
+  margin: 100 auto;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+  min-height: 140%;
+  margin-left: 5rem;
+  position: relative;
+  margin-right: 5rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.text1 {
+  border-radius: 12%;
+  border-style: groove;
+  border-color: rgb(247, 199, 154);
+  background-color: rgb(102, 73, 39);
+  width: 105%;
+  height: 105%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10%;
+}
+
+.text1 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  top: -1%;
+  text-align: center;
+  position: relative;
+  font-size: 200%;
+  width: 100%;
+  border-radius: 22px 22px 0px 0px;
+  background-color: rgb(40, 151, 255, 0.37);
+}
+
+.text1 img {
+  width: 100%;
+  border-color: rgb(41, 28, 13);
+  border-style: double;
+}
+
+.macho1 {
+  background-color: rgb(41, 28, 13);
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.macho2 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: rgb(59, 45, 15, 0.6);
+
+  border-color: rgb(41, 28, 13);
+}
+.botton {
+  text-align: center;
+  position: relative;
+  font-size: 250%;
+  font-family: "Protest Strike";
+  text-decoration: none;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(41, 28, 13);
+  top: 2%;
+  color: white;
+}
